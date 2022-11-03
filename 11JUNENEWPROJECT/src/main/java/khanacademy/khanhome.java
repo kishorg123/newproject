@@ -18,16 +18,16 @@ public class khanhome {
 	@FindBy (xpath = "(//button[@type='button'])[6]")
 	private WebElement biosubmit;
 	
-	public khanhome(WebDriver driver) {
-		PageFactory.initElements(driver, this);
-	}
+// 	public khanhome(WebDriver driver) {
+// 		PageFactory.initElements(driver, this);
+// 	}
 	
-	public void hpbiolink() {
-		biolink.click();
-	}
-	public void hpnickname() {
-		nickname.sendKeys("Deep");
-	}
+// 	public void hpbiolink() {
+// 		biolink.click();
+// 	}
+// 	public void hpnickname() {
+// 		nickname.sendKeys("Deep");
+// 	}
 	public void hpusername() {
 		username.sendKeys("Deepak");
 	}
